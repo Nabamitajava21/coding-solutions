@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    //Nabamita
+	ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T;
+    cin >> T;
+
+    while (T--) {
+        long long X;
+        cin >> X;
+
+        string S;
+        cin >> S;
+
+        int carlsen = 0, chef = 0;
+
+        for (char c : S) {
+            if (c == 'C') {
+                carlsen += 2;
+            } 
+            else if (c == 'N') {
+                chef += 2;
+            } 
+            else { 
+                
+                carlsen += 1;
+                chef += 1;
+            }
+        }
+
+        if (carlsen > chef) {
+            cout << 60 * X << "\n";
+        } 
+        else if (chef > carlsen) {
+            cout << 40 * X << "\n";
+        } 
+        else {
+            cout << 55 * X << "\n";
+        }
+    }
+
+    return 0;
+
+}

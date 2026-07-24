@@ -59,9 +59,9 @@ Since `k = 2` and `s` has only one `'0'`, it is impossible to flip exactly `k` i
 ## Solution
 
 **Language:** Java  
-**Runtime:** 475 ms (beats 51.04%)  
-**Memory:** 113.3 MB (beats 26.56%)  
-**Submitted:** 2026-07-24T18:30:47.555Z  
+**Runtime:** 558 ms (beats 31.77%)  
+**Memory:** 112.9 MB (beats 35.94%)  
+**Submitted:** 2026-07-24T18:36:38.120Z  
 
 ```java
 class Solution {
